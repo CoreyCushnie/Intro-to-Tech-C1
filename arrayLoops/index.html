@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>arrayLoops</title>
-  
-  
-  
-  
-  
-</head>
-
-<body>
-
-  <div>
+<div>
   <ul id="colors">
   </ul>
 </div>
@@ -31,21 +16,25 @@
           a.innerHTML = ((i+1)) + o[1] + " choice is " + color[i];
           a.style.color = color[i];
           document.getElementById("colors").appendChild(a);
+          break;
           
         case 1:  
           a.innerHTML = ((i+1)) + o[2] + " choice is " + color[i];
           a.style.color = color[i];
           document.getElementById("colors").appendChild(a);
+          break;
           
         case 2:  
           a.innerHTML = ((i+1)) + o[3] + " choice is " + color[i];
           a.style.color = color[i];
           document.getElementById("colors").appendChild(a);
+          break;
             
         default:  
           a.innerHTML = ((i+1)) + o[0] + " choice is " + color[i];
           a.style.color = color[i];
           document.getElementById("colors").appendChild(a);
+          break;
           
       document.getElementById("colors").appendChild(a);
       }
@@ -55,9 +44,3 @@
     test();
   
 </script>
-  
-  
-
-</body>
-
-</html>
